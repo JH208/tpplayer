@@ -1,0 +1,12 @@
+name: tpplayer
+version: '${version}'
+main: com.lio_e28.tpplayer.Tpplayer
+api-version: '1.20'
+commands:
+  givetpplayer:
+    description: give tpplayer item
+    aliases: givetp
+permissions:
+  tp.click:
+    description: OP only can use TPclick
+    default : op
